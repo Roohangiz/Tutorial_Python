@@ -84,6 +84,6 @@ print(colors_set1.intersection(colors_set2))
 print(colors_set1.difference(colors_set2))
 print(colors_set2.difference(colors_set1))
 
-# Emty tuple
+# Emty set
 numbs_set = {}    #dictionary
 numbs_set = set() #set
