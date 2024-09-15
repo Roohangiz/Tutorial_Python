@@ -38,7 +38,7 @@ print(message)
 message.split(',')
 print(message)
 
-# Emty list
+# Empty list
 numbs_list = []
 numbs_list = list()
 #%% Loop
@@ -60,13 +60,13 @@ print(colors)
 colors_tup= ('red','green','blue','turqoise')
 print(type(colors_tup))
 colors_tup[1]='sabz'
-print(colors)
+print(colors_tup)
 
 print(dir(colors_tup))
 print(colors_tup.count('blue'))
 print(colors_tup.index('blue'))
 
-# Emty tuple
+# Empty tuple
 numbs_tup = ()
 numbs_tup = tuple()
 #%% Set
@@ -84,6 +84,6 @@ print(colors_set1.intersection(colors_set2))
 print(colors_set1.difference(colors_set2))
 print(colors_set2.difference(colors_set1))
 
-# Emty set
+# Empty set
 numbs_set = {}    #dictionary
 numbs_set = set() #set
